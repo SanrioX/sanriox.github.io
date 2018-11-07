@@ -1,0 +1,32 @@
+.hero {
+  background: url(../bg/video-bg.png) center center / cover no-repeat;
+}
+
+.hero__title {
+  color: #f9b43b;
+  font-size: 72px;
+  margin-bottom: 20px;
+  font-family: 'gagalinregular';
+  font-weight: 400;
+}
+
+
+.hero__desc {
+  color: #fff;
+  font-family: 'lifehackmedium';
+  font-weight: 400;
+  font-size: 50px;
+  padding-left: 80px;
+  
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__container {
+  flex: .75;
+}

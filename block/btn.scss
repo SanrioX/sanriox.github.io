@@ -1,0 +1,28 @@
+.btn {
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: $red;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'ubuntulight';
+  font-weight: 300;
+  font-size: 13px;
+
+}
+
+.btn__next-section {
+  display: flex;
+  margin-top: 95px;
+  justify-content: center;
+}
+
+.btn__pic {
+  width: 29px;
+  height: 14px;
+}
+
+.btn__bg_black {
+  margin-top: 17px;
+  background: #2f3234;
+}

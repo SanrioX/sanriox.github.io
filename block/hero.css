@@ -1,0 +1,36 @@
+.hero {
+  background: url(../bg/video-bg.png) center center/cover no-repeat; }
+
+.hero__title {
+  color: #f9b43b;
+  font-size: 72px;
+  margin-bottom: 20px;
+  font-family: 'gagalinregular';
+  font-weight: 400; }
+
+.hero__desc {
+  color: #fff;
+  font-family: 'lifehackmedium';
+  font-weight: 400;
+  font-size: 50px;
+  padding-left: 80px; }
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.hero__container {
+  -webkit-box-flex: .75;
+      -ms-flex: .75;
+          flex: .75; }
