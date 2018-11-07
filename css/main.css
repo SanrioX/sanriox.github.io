@@ -478,6 +478,9 @@ template {
   display: -ms-flexbox;
   display: flex; }
 
+.logo {
+  margin-top: 13px; }
+
 .hero {
   background: url(../bg/video-bg.png) center center/cover no-repeat; }
 
@@ -493,7 +496,8 @@ template {
   font-family: 'lifehackmedium';
   font-weight: 400;
   font-size: 50px;
-  padding-left: 80px; }
+  padding-left: 80px;
+  line-height: 50px; }
 
 .hero__content {
   display: -webkit-box;
@@ -508,7 +512,9 @@ template {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  margin-top: 70px;
+  margin-right: 15px; }
 
 .hero__container {
   -webkit-box-flex: .75;
@@ -556,10 +562,23 @@ template {
           transform: scale(0.8);
   -webkit-transition: .5s;
   transition: .5s;
-  height: 100%; }
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 20px; }
 
 .reviews__title {
-  margin-top: 50px;
   font-family: 'gagalinregular';
   font-weight: 400;
   font-size: 14px;
@@ -586,7 +605,7 @@ template {
 .nav__link {
   color: #fff;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;

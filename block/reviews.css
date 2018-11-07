@@ -26,10 +26,23 @@
           transform: scale(0.8);
   -webkit-transition: .5s;
   transition: .5s;
-  height: 100%; }
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 20px; }
 
 .reviews__title {
-  margin-top: 50px;
   font-family: 'gagalinregular';
   font-weight: 400;
   font-size: 14px;
