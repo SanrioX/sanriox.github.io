@@ -10,6 +10,11 @@
   width: 25%;
   height: 50%;
 
+  @include tablets {
+    width: 50%;
+    height: 25%;
+  }
+
 
   background: center center / cover no-repeat;
   position: relative;
@@ -34,21 +39,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0 20px;
+  padding: 0 rem(20px);
+
 }
 
 .reviews__title {
   font-family: 'gagalinregular';
   font-weight: 400;
-  font-size: 14px;
+  font-size: rem(14px);
+  margin-bottom: rem(30px);
   color: #ffffff;
 
 }
  
 .reviews__text{
-  margin-top: 30px;
+  margin-bottom: rem(17px);
   color: #ffffff;
-  font-size: 14px;
+  font-size: rem(14px);
   font-family: 'ubuntulight';
   font-weight: 300;
+
+  @include phones {
+    display: none;
+  }
 }

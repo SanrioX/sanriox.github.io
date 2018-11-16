@@ -1,5 +1,9 @@
 .nav {
   margin-right: 15px;
+  
+  @include tablets {
+    display: none;
+  }
 }
 
 
@@ -9,8 +13,11 @@
 
 }
 
+
+
 .nav__item:last-child .nav__link:after {
   display: none;
+
 }
 
 
@@ -26,12 +33,12 @@
 
   &::after {
     content: "";
-    width: 4px;
-    height: 4px;
+    width: rem(4px);
+    height: rem(4px);
     display: block;
     border-radius: 50%;
     background: #fff;
-    margin: 0 10px;
+    margin: 0 rem(10px);
   }
 }
 

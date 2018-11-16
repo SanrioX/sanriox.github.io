@@ -7,29 +7,48 @@
 
 .best__list {
   display: flex;
-  margin-bottom: 155px;
+  margin-bottom: rem(155px);
+  justify-content: space-between;
+  
+  @include phones {
+    flex-direction: column;
+  }
   
 }
 .best__item {
-  flex: 1;
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 36px ;
+  margin-bottom: 30px;
+
+  @include phones {
+    flex-direction: initial;
+  }
 }
 
 .best__desc {
   text-align: center;
+
+  @include phones {
+    text-align: left;
+    padding-left: 15px;
+  }
 }
 
 .best__title {
   font-family: 'lifehackmedium';
   font-weight: 400;
-  font-size: 24px;
+  font-size: rem(24px);
 }
 
 .best__text {
   font-family: 'ubuntulight';
   font-weight: 300;
-  font-size: 14px;
+  font-size: rem(14px);
+}
+
+.best__img-pic {
+  width: 90px;
+  height: 80px;
 }

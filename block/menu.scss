@@ -1,0 +1,62 @@
+.menu {
+  background: url(../bg/bg-menu.png) 50% / cover no-repeat;
+  position: relative;
+
+  &__accordion-list {
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  &__accordion-item {
+    display: flex;
+
+    
+    
+    
+    &:hover {
+      .menu__accordion-trigger span {
+        color: $yelow;
+        
+      }
+    }
+  }
+  &__accordion-content {
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+
+    &_active {
+      width: 600px;
+    }
+  }
+  &__accordion-trigger {
+    width: rem(80px);
+    padding-bottom: rem(45px);
+    display: flex;
+    align-items: flex-end;
+    background: center center / cover no-repeat;
+    
+    span {
+      font-size: rem(40px);
+      display: flex;
+      font-family:'gagalinregular';
+      font-weight: 400;
+      color: #fff;
+      transform: rotate(-90deg);
+      white-space: nowrap;
+      width: 100%;
+      
+    }
+  }
+  &__accordion-text {
+    background-color: rgba( #2f3234, 0.93 );
+    min-width: rem(540px);
+    height: 100%;
+    color: #fff;
+  
+
+  }
+}
+

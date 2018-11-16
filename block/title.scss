@@ -1,8 +1,9 @@
 .title {
   color:$yelow;
-  font-size: 45px;
-  margin-bottom: 20px;
+  font-size: rem(45px);
+  margin-bottom: rem(20px);
   text-align: center;
+  
 
 }
 
@@ -10,7 +11,42 @@
   color: #000;
   font-family: 'gagalinregular';
   font-weight: 400;
-  font-size: 72px;
-  margin-bottom: 55px;
+  font-size: rem(72px);
+  margin-bottom: rem(55px);
+  margin-top: rem(133px);
   
+}
+
+.team__title{
+  font-family: 'gagalinregular';
+  font-weight: 400;
+  font-size: rem(72px);
+  margin-bottom: 12%;
+  text-align: start;
+}
+
+.menu__title {
+  position: absolute;
+  left: 7%;
+  top: 10%;
+  font-size: rem(72px);
+  font-family: 'gagalinregular';
+  font-weight: 400;
+  color: #fff;
+}
+
+.title__order {
+  font-size: 72px;
+  font-family: 'gagalinregular';
+  font-weight: 400;
+  color: #f9b43b;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 44px;
+
+  @include tablets {
+    
+    font-size: 65px;
+    
+  }
 }
