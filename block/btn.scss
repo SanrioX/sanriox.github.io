@@ -34,12 +34,18 @@
 }
 
 .humburger {
+  position: fixed;
+  top: 30px;
+  right: 34px;
+  z-index: 100;
   cursor: pointer;
   width: 24px;
   
+  
   &__item {
+    width: 20px;
     height: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 4px;
     background-color: #fff;
     display: none;
@@ -53,4 +59,9 @@
 
 .btn_margin {
   margin-right: 20px;
+}
+
+.btn-nextscroll {
+  width: 29px;
+  height: 14px;
 }

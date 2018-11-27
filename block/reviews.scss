@@ -23,6 +23,7 @@
     .reviews__hover {
       opacity: 1;
       transform: scale(1);
+
     }
     
   }
@@ -41,6 +42,10 @@
   align-items: flex-start;
   padding: 0 rem(20px);
 
+  @include tablets {
+    align-items: center;
+  }
+
 }
 
 .reviews__title {
@@ -58,6 +63,10 @@
   font-size: rem(14px);
   font-family: 'ubuntulight';
   font-weight: 300;
+
+  @include tablets {
+    text-align: center;
+  }
 
   @include phones {
     display: none;

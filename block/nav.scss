@@ -1,9 +1,11 @@
 .nav {
   margin-right: 15px;
   
+
   @include tablets {
     display: none;
   }
+  
 }
 
 

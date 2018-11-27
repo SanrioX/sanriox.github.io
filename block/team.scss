@@ -118,4 +118,9 @@
   line-height: rem(24px);
   width: rem(208px);
   height: rem(95px);
+
+  @include tablets {
+    width: 100%;
+    margin-left: 0;
+  }
 }

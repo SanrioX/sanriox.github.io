@@ -1,22 +1,22 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 5 of C:\Users\SanRio\Desktop\Testing\block\form.scss, in `tablets'
-        from line 5 of C:\Users\SanRio\Desktop\Testing\block\form.scss
+        on line 5 of C:\Users\SanRio\Desktop\Testing\block\nav.scss, in `tablets'
+        from line 5 of C:\Users\SanRio\Desktop\Testing\block\nav.scss
 
-1: .order {
-2:   background: url(../bg/bg-order.png) 50%/cover no-repeat;
+1: .nav {
+2:   margin-right: 15px;
 3:   
 4: 
 5:   @include tablets {
-6:     display: flex;
+6:     display: none;
 7:   }
-8: }
-9: 
-10: .container__order {
+8:   
+9: }
+10: 
 
 Backtrace:
-C:\Users\SanRio\Desktop\Testing\block\form.scss:5:in `tablets'
-C:\Users\SanRio\Desktop\Testing\block\form.scss:5
+C:\Users\SanRio\Desktop\Testing\block\nav.scss:5:in `tablets'
+C:\Users\SanRio\Desktop\Testing\block\nav.scss:5
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -64,4 +64,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 5 of C:\Users\SanRio\Desktop\Testing\block\form.scss, in `tablets'\A         from line 5 of C:\Users\SanRio\Desktop\Testing\block\form.scss\A \A 1: .order {\A 2:   background: url(../bg/bg-order.png) 50%/cover no-repeat;\A 3:   \A 4: \A 5:   @include tablets {\A 6:     display: flex;\A 7:   }\A 8: }\A 9: \A 10: .container__order {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 5 of C:\Users\SanRio\Desktop\Testing\block\nav.scss, in `tablets'\A         from line 5 of C:\Users\SanRio\Desktop\Testing\block\nav.scss\A \A 1: .nav {\A 2:   margin-right: 15px;\A 3:   \A 4: \A 5:   @include tablets {\A 6:     display: none;\A 7:   }\A 8:   \A 9: }\A 10: "; }

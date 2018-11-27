@@ -1,0 +1,210 @@
+.burgers {
+  background-image: linear-gradient(to top, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%, #f9b43b 100%);
+  display: flex;
+
+  &__arrow-left {
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+  }
+
+  &__arrow-right {
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: initial;
+    justify-content: center;
+    align-items: center;
+
+    @include tablets {
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      
+    }
+  }
+
+  &__slaider-item {
+    display: flex;
+
+    @include tablets {
+      flex-direction: column;
+    }
+  }
+
+  &__components {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+    @include tablets {
+      width: 100%;
+      margin-bottom: 26px;
+      padding: 15% 15% 0% 15%;
+    }
+
+    @include phones {
+      padding: 5% 5% 0% 5%;
+    }
+  }
+
+  &__img {
+    max-width: 100%;
+    padding: 5%;
+  }
+
+  &__burger-img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    background-color: rgba(#e35028, 0.4);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include phones {
+      left: -40px;
+      top: -10px;
+    }
+  }
+
+  &__burger-pic {
+    width: 46px;
+    height: 44px;
+  }
+
+  &__burger-text {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'gagalinregular';
+  }
+
+  &__kkal-img {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0.5;
+    
+    @include tablets {
+      right: 20px;
+      top: 0;
+    }
+    @include phones {
+      right: -40px;
+      top: -10px;
+    }
+  }
+
+  &__kkal-value {
+    position: absolute;
+    top: 31px;
+    left: 13px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'gagalinregular';
+    font-weight: 400;
+  }
+
+  &__kkal-pic {
+    width: 60px;
+    height: 60px;
+  }
+
+  &__kkal-text {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'gagalinregular';
+    font-weight: 400;
+  }
+
+  &__desc {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+
+    @include tablets {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-size: rem(72px);
+    font-family: 'gagalinregular';
+    font-weight: 400;
+    color: #fff;
+    line-height: 63px;
+    margin-bottom: 56px;
+
+    @include tablets {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 20px;
+      
+      width: 100%;
+    }
+
+    @include phones {
+      margin-bottom: 36px;
+      font-size: 50px;
+      
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'ubuntulight';
+    color: #ffffff;
+    margin-bottom: 36px;
+    line-height: 23.97px;
+
+    @include tablets {
+      text-align: center;
+    }
+  }
+
+
+  &__block {
+    display: flex;
+    align-items: center;
+
+    @include tablets {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__price {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'gagalinregular';
+    color: #e35028;
+    &_500 {
+      font-size: 72px;
+      @include phones {
+        font-size: 50px;
+      }
+    }
+    @include phones {
+      font-size: 24px;
+    }
+  }
+
+  &__btn {
+    margin-left: 29px;
+  }
+}
